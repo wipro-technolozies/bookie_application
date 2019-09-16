@@ -480,7 +480,7 @@
    	   		</snapshotRepository>
 	</distributionManagement>
 	<organization>
-		<name>Sardegna   Ricerche</name>
+		<name>Sardegna Ricerche</name>
 		<url>http://www.sardegnaricerche.it</url>
 	</organization>
 	<name>Locanda</name>
