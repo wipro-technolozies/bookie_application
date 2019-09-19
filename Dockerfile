@@ -1,4 +1,4 @@
-FROM tomcat:8
+FROM tomcat:7
 USER root
 copy context.xml /usr/local/tomcat/webapps/manager/META-INF/context.xml
 copy tomcat-users.xml /usr/local/tomcat/conf/tomcat-users.xml
