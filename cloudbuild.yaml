@@ -7,5 +7,5 @@ images:
 - 'gcr.io/$PROJECT_ID/quickstart-image'
 artifacts:
   objects:
-    location: 'gs://my-bucket/artifacts/'
+    location: 'gs://workspace/artifacts/'
     paths: ["build/libs/*.jar"]
