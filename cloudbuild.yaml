@@ -5,3 +5,7 @@ steps:
   args: [ 'build', '-t', 'gcr.io/$PROJECT_ID/quickstart-image', '.' ]
 images:
 - 'gcr.io/$PROJECT_ID/quickstart-image'
+artifacts:
+  objects:
+    location: 'gs://my-bucket/artifacts/'
+    paths: ["build/libs/*.jar"]
