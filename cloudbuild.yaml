@@ -4,7 +4,7 @@ steps:
   artifacts:
   objects:
     location: 'gs://thebookie/'
-    paths: ["build/libs/*.jar"]
+    paths: ["build/libs/*.war"]
 - name: 'gcr.io/cloud-builders/docker'
   args: [ 'build', '-t', 'gcr.io/$PROJECT_ID/quickstart-image', '.' ]
 images:
