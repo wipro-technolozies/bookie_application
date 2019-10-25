@@ -3,7 +3,7 @@ steps:
   args: ['package']
   artifacts:
   objects:
-    location: 'gs://workspace/artifacts/'
+    location: 'gs://thebookie/'
     paths: ["build/libs/*.jar"]
 - name: 'gcr.io/cloud-builders/docker'
   args: [ 'build', '-t', 'gcr.io/$PROJECT_ID/quickstart-image', '.' ]
