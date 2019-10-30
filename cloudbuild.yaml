@@ -4,4 +4,4 @@ steps:
 artifacts:
   objects:
     location: 'gs://thebookie'
-    paths: ["workspace/package"]
+    paths: ["/workspace/Locanda_target/Locanda.war"]
