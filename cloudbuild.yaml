@@ -3,5 +3,5 @@ steps:
   args: ['package']
 artifacts:
   objects:
-    location: 'gs://thebookie/bookie-1'
+    location: 'gs://thebookie'
     paths: ["Locanda.war"]
