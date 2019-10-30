@@ -3,7 +3,7 @@ steps:
   args: ['package']
 - name: 'gcr.io/cloud-builders/npm'
   args: ['run', 'test:unit']
-  artifacts:
+artifacts:
   objects:
     location: 'gs://thebookie/bookie-1'
     paths: ["Locanda.war"]
